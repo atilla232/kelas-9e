@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+  .home-about-us {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-kelas {
+    width: 90%;
+  }
+
+  .home-photo {
+    width: 100%;
+  }
+
+  .home-about {
+    width: 100%;
+  }
+}

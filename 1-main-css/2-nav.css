@@ -1,0 +1,44 @@
+nav {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color);
+  /* overflow-x: hidden; */
+}
+
+nav .my-title a {
+  font-weight: 700;
+}
+nav .my-title a,
+nav #navbarNav ul li a {
+  color: var(--text-color);
+  transition: 400ms;
+}
+nav #navbarNav ul li a:hover {
+  color: var(--main-color);
+  text-shadow: 0 0 20px transparent;
+}
+
+nav .my-title a span {
+  color: var(--main-color);
+}
+
+.aktif,
+#active {
+  color: var(--main-color) !important;
+  text-shadow: 0 0 20px transparent !important;
+}
+nav .my-title a:hover,
+nav .my-title a:hover span {
+  color: var(--text-color);
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.contact-10 {
+  display: none;
+}
+
+.my-dropdown li a {
+  font-weight: 500;
+}

@@ -1,0 +1,194 @@
+.home {
+  height: fit-content;
+  width: 100%;
+  background-color: var(--secunder-color);
+}
+
+.home-main {
+  padding-top: 20px;
+  width: 100%;
+  padding: 20px;
+}
+
+.home-main h1 {
+  text-align: center;
+}
+
+.home-main h1 span,
+.website-card-main h1 span,
+.jadwal h1 span {
+  color: var(--third-color);
+}
+
+.home-button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.my-btn-4 {
+  color: white !important;
+  height: fit-content !important;
+  font-size: 15px;
+  width: 100px;
+  margin-right: 5px;
+}
+
+.home-about-us {
+  display: flex;
+}
+
+.home-photo {
+  width: 500px;
+  height: 200px;
+  background-image: url(/3-img/WhatsApp\ Image\ 2023-10-27\ at\ 18.15.36.jpeg);
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.home-about {
+  width: 90%;
+  padding: 5px;
+}
+
+.home-about p {
+  line-height: 2.2rem;
+  font-size: 1.1rem;
+  font-family: var(--p-font);
+  text-align: justify;
+  /* font-weight: 400; */
+}
+
+.home-about p span {
+  color: var(--third-color);
+}
+
+/* absen kelas */
+
+:root {
+  --text-color: #fff;
+  --bg-color: rgb(5, 9, 31);
+  --main-color: rgb(3, 119, 227);
+  --secunder-color: #1d293e;
+  --third-color: #7564e5;
+  --yellow-color: rgb(241, 206, 8);
+  --other-color-2: #1a2436;
+
+  --other-color: #b5b9bf;
+
+  --h1-font: 3rem;
+  --h2-font: 2.9rem;
+  --p-font: 1rem;
+
+  /* ! font */
+
+  --inter: "Inter", sans-serif;
+  --open-sans: "Open Sans", sans-serif;
+  --roboto: "Roboto", sans-serif;
+}
+
+.section-main {
+  background-color: var(--other-color-2);
+  height: fit-content;
+}
+
+.tautan-title {
+  text-align: center;
+  padding-top: 40px;
+  width: 100%;
+}
+
+.tautan-title h1 {
+  font-weight: 800;
+}
+
+.tautan-title h1 span {
+  color: var(--main-color);
+}
+
+/* ? tautan link */
+.link-table {
+  padding: 60px;
+}
+
+.my-table-1 {
+  border-radius: 20px !important;
+}
+
+.my-btn-5 {
+  font-size: 1.5rem;
+}
+
+.my-btn-5:hover {
+  background: transparent;
+  box-shadow: none !important;
+  position: relative;
+}
+
+.my-btn-5:hover::before {
+  content: "Download";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+  background-color: black;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.hover-button::before:hover {
+  opacity: 1;
+}
+
+.my-btn-5:hover i {
+  color: var(--main-color) !important;
+}
+
+.tautan-link {
+  color: var(--main-color) !important;
+  text-decoration: none !important;
+  transition: 200ms;
+}
+
+.tautan-link:hover {
+  color: white !important;
+}
+.judul {
+  color: var(--third-color);
+}
+
+.my-table-1 tbody tr td:nth-child(4) {
+  text-transform: uppercase;
+}
+
+@media (max-width: 576px) {
+  .tautan h1 {
+    font-size: 1.4rem;
+  }
+
+  .tautan h3 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .link-table {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-about-us {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-photo {
+    width: 100%;
+  }
+
+  .home-about {
+    width: 100%;
+  }
+}

@@ -1,0 +1,79 @@
+.section-main {
+  background-image: url(/2-kelas/nav/1-kelas/1-jadwal-mapel/icon/soft-aesthetic-cei80uravrnl6ltm.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 15px;
+  height: fit-content;
+}
+
+.my-card-2 {
+  color: var(--text-color);
+  border: 4px solid var(--main-color) !important;
+  width: 60vw;
+  padding: 5px 0px 5px 15px;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  transition: transform 0.3s; /* Animasi transisi */
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border-radius: 10px !important;
+}
+
+.isi-jadwal h1 {
+  padding: 5px;
+  margin-bottom: 0;
+}
+
+.isi-jadwal ul li {
+  list-style-type: disc;
+}
+
+.jadwal-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/* nama guru */
+
+.my-card-3 {
+  color: var(--text-color);
+  border: 4px solid var(--main-color) !important;
+
+  height: fit-content !important;
+  width: 30vw;
+  padding: 5px 0px 5px 15px;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  transition: transform 0.3s; /* Animasi transisi */
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.isi-jadwal {
+  font-family: var(--open-sans);
+}
+
+.isi-jadwal ul li {
+  font-weight: 400;
+}
+.isi-jadwal h1 {
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .my-card-3 {
+    height: 100% !important;
+    width: 100%;
+  }
+
+  .jadwal-main-container {
+    padding: 0;
+  }
+
+  .my-card-2 {
+    width: 100%;
+  }
+}

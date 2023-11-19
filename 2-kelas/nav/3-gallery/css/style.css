@@ -1,0 +1,42 @@
+:root {
+  --text-color: #fff;
+  --bg-color: rgb(5, 9, 31);
+  --main-color: rgb(3, 119, 227);
+  --secunder-color: #1d293e;
+  --third-color: #7564e5;
+  --yellow-color: rgb(241, 206, 8);
+  --other-color-2: #1a2436;
+
+  --other-color: #b5b9bf;
+
+  --h1-font: 3rem;
+  --h2-font: 2.9rem;
+  --p-font: 1rem;
+}
+
+.section-main {
+  background-color: var(--other-color-2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-main h1 {
+  font-size: 3rem;
+  color: var(--text-color);
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.section-main i {
+  color: var(--third-color) !important;
+  font-size: 4rem;
+}
+
+@media (max-width: 800px) {
+  .section-main h1 {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,104 @@
+:root {
+  --text-color: #fff;
+  --bg-color: rgb(5, 9, 31);
+  --main-color: rgb(3, 119, 227);
+  --secunder-color: #1d293e;
+  --third-color: #7564e5;
+  --yellow-color: rgb(241, 206, 8);
+  --other-color-2: #1a2436;
+
+  --other-color: #b5b9bf;
+
+  --h1-font: 3rem;
+  --h2-font: 2.9rem;
+  --p-font: 1rem;
+
+  /* ! font */
+
+  --inter: "Inter", sans-serif;
+  --open-sans: "Open Sans", sans-serif;
+  --roboto: "Roboto", sans-serif;
+}
+
+.section-main {
+  background-color: var(--secunder-color);
+}
+
+.tautan-title {
+  text-align: center;
+  padding-top: 40px;
+  width: 100%;
+}
+
+.tautan-title h1 {
+  font-weight: 800;
+}
+
+.tautan-title h1 span {
+  color: var(--main-color);
+}
+
+/* ? tautan link */
+.link-table {
+  padding: 60px;
+}
+
+.my-table-1 {
+  border-radius: 20px !important;
+}
+
+.my-btn-5:hover {
+  background: transparent;
+  box-shadow: none !important;
+  position: relative;
+}
+
+.my-btn-5:hover::before {
+  content: "Salin";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+  background-color: black;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.hover-button::before:hover {
+  opacity: 1;
+}
+
+.my-btn-5:hover i {
+  color: var(--main-color) !important;
+}
+
+.tautan-link {
+  color: var(--main-color) !important;
+  text-decoration: none !important;
+  transition: 200ms;
+}
+
+.tautan-link:hover {
+  color: white !important;
+}
+
+.judul {
+  color: var(--third-color);
+}
+
+@media (max-width: 576px) {
+  .tautan h1 {
+    font-size: 1.4rem;
+  }
+
+  .tautan h3 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .link-table {
+    padding: 10px;
+  }
+}

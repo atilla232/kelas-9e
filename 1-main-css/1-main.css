@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --text-color: #fff;
+  --bg-color: rgb(5, 9, 31);
+  --main-color: rgb(3, 119, 227);
+  --secunder-color: #1d293e;
+  --third-color: #7564e5;
+  --yellow-color: rgb(241, 206, 8);
+  --other-color-2: #1a2436;
+
+  --other-color: #b5b9bf;
+
+  --h1-font: 3rem;
+  --h2-font: 2.9rem;
+  --p-font: 1rem;
+
+  /* ! font */
+
+  --inter: "Inter", sans-serif;
+  --open-sans: "Open Sans", sans-serif;
+  --roboto: "Roboto", sans-serif;
+}
+
+body {
+  color: var(--text-color) !important;
+  background: var(--bg-color);
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+section {
+  height: 100vh;
+}
+
+.btn-primary {
+  color: var(--bg-color) !important;
+  background-color: var(--main-color) !important;
+  font-size: 15px !important;
+}
+
+.btn-outline-primary {
+  color: var(--text-color) !important;
+  font-size: 15px !important;
+  border: 2px solid var(--main-color) !important;
+}
+
+.btn:hover {
+  background: transparent;
+  color: var(--text-color);
+  box-shadow: 0 0 10px var(--main-color), 0 0 40px var(--main-color),
+    0 0 50px var(--main-color);
+}
+
+/* scroll bar */
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--bg-color);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--other-color-2);
+  border-radius: 10px;
+  height: 40px;
+}

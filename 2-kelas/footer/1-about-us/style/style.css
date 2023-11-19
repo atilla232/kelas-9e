@@ -1,0 +1,86 @@
+:root {
+  --text-color: #fff;
+  --bg-color: rgb(5, 9, 31);
+  --main-color: rgb(3, 119, 227);
+  --secunder-color: #1d293e;
+  --third-color: #7564e5;
+  --yellow-color: rgb(241, 206, 8);
+  --other-color-2: #1a2436;
+
+  --other-color: #b5b9bf;
+
+  --h1-font: 3rem;
+  --h2-font: 2.9rem;
+  --p-font: 1rem;
+
+  /* ! font */
+
+  --inter: "Inter", sans-serif;
+  --open-sans: "Open Sans", sans-serif;
+  --roboto: "Roboto", sans-serif;
+}
+
+/* root */
+.section-main {
+  background-color: var(--other-color-2);
+  padding: 50px;
+  height: fit-content;
+}
+
+.section-main article h1 {
+  color: var(--main-color);
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-main article h2 {
+  font-size: 2rem;
+  color: var(--third-color);
+  font-weight: 600;
+  text-align: center;
+}
+
+.section-main article h3 {
+  font-size: 1.5rem;
+  color: var(--third-color);
+  font-weight: 600;
+  text-align: center;
+}
+
+.section-main article ol li {
+  list-style-type: decimal;
+}
+
+article {
+  text-align: justify;
+}
+
+.section-main article ol li strong {
+  color: var(--main-color);
+}
+article {
+  margin-top: 30px;
+}
+
+.visi {
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .section-main article h1 {
+    text-align: left !important;
+  }
+
+  .section-main article h2 {
+    text-align: left !important;
+  }
+
+  .section-main article h3 {
+    text-align: left !important;
+  }
+
+  .visi {
+    text-align: left;
+  }
+}
