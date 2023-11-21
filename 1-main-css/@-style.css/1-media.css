@@ -15,4 +15,12 @@
   .home-about {
     width: 100%;
   }
+
+  .box-tanggal {
+    width: 80%;
+  }
+
+  .box-tanggal p {
+    font-size: 1.2rem;
+  }
 }
